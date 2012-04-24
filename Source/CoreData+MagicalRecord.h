@@ -39,7 +39,7 @@
 #if TARGET_OS_IPHONE == 0
 #define MR_MINIMUM_PRIVATE_QUEUE_CF_VERSION kCFCoreFoundationVersionNumber_10_7
 #else
-#define MR_MINIMUM_PRIVATE_QUEUE_CF_VERSION kCFCoreFoundationVersionNumber_iPhoneOS_5_0
+#define MR_MINIMUM_PRIVATE_QUEUE_CF_VERSION DBL_MAX
 #endif
 
 #define PRIVATE_QUEUES_ENABLED(...) \
